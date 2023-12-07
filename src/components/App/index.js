@@ -10,10 +10,10 @@ import { Container } from './styles';
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-        <GlobalStyles />
-        <Container>
-            <Header />
-        </Container>
+      <GlobalStyles />
+      <Container>
+        <Header />
+      </Container>
     </ThemeProvider>
   );
 }
